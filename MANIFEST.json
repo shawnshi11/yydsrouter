@@ -1,0 +1,9 @@
+{
+  "docsVersion": "2026-11-25",
+  "apiVersion": "v1",
+  "protocols": ["openai-chat", "openai-responses", "anthropic-messages", "gemini-generateContent", "openai-images"],
+  "models": 17,
+  "site": "https://yydsrouter.com",
+  "docs": "https://yydsrouter.com/guide/",
+  "pricing": "https://yydsrouter.com/pricing"
+}
