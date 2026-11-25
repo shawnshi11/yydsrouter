@@ -1,0 +1,6 @@
+本仓的许可范围：
+
+- **文档**（`README.md`、`docs/`、`llms.txt`）采用 **CC BY 4.0**（见 `LICENSE`，法律文本为 Creative Commons 官方原文）。
+- **示例代码**（`examples/`、`skill/`）采用 **MIT**（见 `LICENSE-CODE`）。
+
+转载文档请保留来源链接：<https://github.com/shawnshi11/yydsrouter>
