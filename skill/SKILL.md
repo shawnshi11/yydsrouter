@@ -28,11 +28,12 @@ Base：`https://yydsrouter.com`（**Anthropic 形状不要带 `/v1`**，客户�
 
 ## 必须知道的坑
 
-- **思考型模型**（Gemini 全系、Claude 全系、GPT 6 系）先思考再作答，`max_tokens` 给小了会被思考吃光、正文为空但照扣钱 → **≥ 200**。
-- **GPT 6 系用 `max_completion_tokens`**（`max_tokens` 官方 API 不收，网关会转，但直连官方会 400）。
-- **`gpt-6-luna` 不把 `max_tokens` 当上限**：给了也可能跑完 ~1300 个思考 token，控成本用 `max_completion_tokens`。
-- **GPT 6.2 系超过 27.2 万 token 整笔涨价**（输入翻倍、输出 1.5 倍），不是超出部分加价。
-- **图像**：`n` 最多 4；不传 `quality` 按最低档计价；2.5 系只有约 1024，要 2K/4K 选 2.6 系。
+- **思考型模型**（Gemini 全系、Claude 全系、GPT 6 系）先思考再作答：`max_tokens` / `max_completion_tokens`
+  建议 **≥ 200**，预算太小时可能只拿到思考内容、正文为空。
+- **GPT 6 系用 `max_completion_tokens`**（`max_tokens` 官方 API 不收，网关会自动转换，直连官方会 400）。
+- **`gpt-6-luna` 的思考不受 `max_tokens` 约束**，控成本用 `max_completion_tokens`。
+- **GPT 6.2 系长文档分档**：输入超过 27.2 万 token 时整笔按长上下文档计价（输入 ×2、输出 ×1.5）。
+- **图像**：`n` 最多 4；不传 `quality` 按最低档计价；2.5 系约 1024，要 2K/4K 选 2.6 系。
 - **失败不扣费**：参数错误 / 超输出上限 / 上游报错都记 `quota=0`。
 - 错误体统一是 `{"error":{"message":"...","type":"yydsai_error"}}`。
 
