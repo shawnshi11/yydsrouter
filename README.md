@@ -4,6 +4,17 @@
   <img src="./assets/readme/hero.svg" width="880" alt="YYDS Router：一个 base URL 同时说 OpenAI、Anthropic、Gemini 三种协议；17 个在售模型">
 </p>
 
+<p align="center">
+  <a href="https://github.com/shawnshi11/yydsrouter/stargazers"><img src="https://img.shields.io/github/stars/shawnshi11/yydsrouter?style=social" alt="GitHub stars"></a>
+  &nbsp;
+  <a href="./LICENSE"><img src="https://img.shields.io/github/license/shawnshi11/yydsrouter" alt="License"></a>
+  &nbsp;
+  <a href="https://yydsrouter.com/"><img src="https://img.shields.io/badge/site-yydsrouter.com-6d5cf6" alt="Site"></a>
+</p>
+
+> **如果这份资料对你有用，点右上角的 ⭐ Star 一下。** 它不会改变任何接口行为，
+> 只影响这份文档下次更新的速度 —— 也是别人判断"这东西还有人在维护"的唯一信号。
+
 **直接找**：[支持的模型](#支持的模型) ｜ [五分钟上手](#五分钟上手) ｜ [三种协议](#三种协议一次说清) ｜ [客户端接入](#客户端接入) ｜ [计费规则](#计费规则四条) ｜ [错误码](#错误码) ｜ [常见叫法](#常见叫法你可能这样搜) ｜ [FAQ](#常见问题faq)
 
 > **线上入口**（模型广场、价格、控制台都在这里）：<https://yydsrouter.com/>
