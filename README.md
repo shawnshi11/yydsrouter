@@ -24,6 +24,15 @@
 > **模型速查**：[Gemini 4 系列怎么选](https://yydsrouter.com/guide/models/gemini-4/) ·
 > [Claude 5 系列怎么选](https://yydsrouter.com/guide/models/claude-5/) ·
 > [GPT 6 系列怎么选](https://yydsrouter.com/guide/models/gpt-6/)
+>
+> **排行榜与参数**：[AI 模型排行榜（前 20 名 + 站内可调对照）](https://yydsrouter.com/guide/models/leaderboards/) ·
+> [上下文窗口与输出上限对照表](https://yydsrouter.com/guide/models/limits/)
+>
+> **客户端踩坑**：[Claude Code 与 Codex 接第三方网关（配置 / 报错 / 排错）](https://yydsrouter.com/guide/connect/clients/)
+>
+> **给机器读的**：[llms.txt](https://yydsrouter.com/llms.txt) ·
+> [ai-catalog.json](https://yydsrouter.com/ai-catalog.json) ·
+> [skill.md](https://yydsrouter.com/skill.md)（Agent 可直接抓这份接）
 
 这个仓库是这个网关的**公开接入资料**：模型清单、价格口径、三种协议的示例代码、客户端配置、错误码与常见坑。
 
@@ -168,7 +177,8 @@ A：每个模型只挂一条官方渠道——这样同一个模型只有一个�
 
 - Claude / Anthropic、GPT / OpenAI、Gemini / Google 是各自公司的商标；本服务只是这些官方接口的接入与计量层。
 - 模型输出由上游模型决定；请自行确认你的使用场景符合各家模型的服务条款与所在地区法规。
-- 模型清单与价格随上游变化，**以 [模型广场](https://yydsrouter.com/pricing) 为准**。
+- 模型清单与价格随上游变化，**以 [模型广场](https://yydsrouter.com/pricing) 为准**；模型的能力对比与延迟数据见
+  [AI 模型排行榜](https://yydsrouter.com/guide/models/leaderboards/)。
 
 ## License
 
